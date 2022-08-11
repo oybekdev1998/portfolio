@@ -4,8 +4,14 @@ module.exports = {
     es2021: true,
   },
   extends: [
+    'plugin:react-hooks/recommended',
     'plugin:react/recommended',
+    'plugin:import/errors',
+    'plugin:import/warnings',
     'airbnb',
+    'plugin:prettier/recommended',
+    'prettier',
+    'prettier/react'
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -16,8 +22,10 @@ module.exports = {
   },
   plugins: [
     'react',
+    ['prettier']
   ],
   rules: {
+    'prettier/prettier': 'error',
     indent: ['error', 2],
     semi: ['warn', 'always'],
     quotes: ['warn', 'single'],

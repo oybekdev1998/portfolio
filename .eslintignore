@@ -2,3 +2,4 @@
 /.idea
 /.vs-code
 public
+.gitignore
