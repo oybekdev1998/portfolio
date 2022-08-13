@@ -11,7 +11,6 @@ module.exports = {
     'airbnb',
     'plugin:prettier/recommended',
     'prettier',
-    'prettier/react'
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -20,12 +19,13 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: [
-    'react',
-    ['prettier']
-  ],
+  plugins: ['react', 'prettier'],
   rules: {
-    'prettier/prettier': 'error',
+    'prettier/prettier': [
+      'error',
+      { endOfLine: 'auto' },
+      { usePrettierrc: true },
+    ],
     indent: ['error', 2],
     semi: ['warn', 'always'],
     quotes: ['warn', 'single'],
@@ -36,4 +36,4 @@ module.exports = {
     'no-unused-vars': 'warn',
     'object-curly-spacing': ['warn', 'always'],
   },
-};
+}

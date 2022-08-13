@@ -1,0 +1,10 @@
+.socials {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.telegram {
+  filter: drop-shadow(0px 0px 10px #fff);
+}
