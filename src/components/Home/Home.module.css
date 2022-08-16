@@ -7,6 +7,20 @@
   justify-content: center;
   height: 100vh;
   overflow: hidden;
+  transition: all 500ms ease-in-out;
+}
+
+.homeOpacity {
+  background: rgb(8,2,38);
+  background: linear-gradient(124deg, rgba(8,2,38,1) 0%, rgba(5,5,15,1) 18%, rgba(0,5,6,1) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  opacity: 0.3;
+  transition: all 500ms ease-in-out;
 }
 
 .img {

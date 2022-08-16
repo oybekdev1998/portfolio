@@ -1,0 +1,15 @@
+.menuImg {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+  transition: all 500ms ease-in-out;
+}
+
+.menuTransform {
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  cursor: pointer;
+  transition: all 500ms ease-in-out;
+}

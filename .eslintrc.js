@@ -9,8 +9,6 @@ module.exports = {
     'plugin:import/errors',
     'plugin:import/warnings',
     'airbnb',
-    'plugin:prettier/recommended',
-    'prettier',
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -19,13 +17,8 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['react', 'prettier'],
+  plugins: ['react'],
   rules: {
-    'prettier/prettier': [
-      'error',
-      { endOfLine: 'auto' },
-      { usePrettierrc: true },
-    ],
     indent: ['error', 2],
     semi: ['warn', 'always'],
     quotes: ['warn', 'single'],
@@ -35,5 +28,16 @@ module.exports = {
     'no-duplicate-imports': 'warn',
     'no-unused-vars': 'warn',
     'object-curly-spacing': ['warn', 'always'],
+    'arrow-body-style': 'off',
+    'prefer-arrow-callback': 'off',
+    'lit-a11y/click-events-have-key-events': [
+      'error',
+      {
+        allowList: 'foo-button',
+        allowCustomElements: false,
+      },
+    ],
+    'jsx-a11y/click-events-have-key-events': 'off',
+    'react/jsx-no-comment-textnodes': 'off',
   },
-}
+};
