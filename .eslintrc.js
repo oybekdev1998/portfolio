@@ -9,6 +9,7 @@ module.exports = {
     'plugin:import/errors',
     'plugin:import/warnings',
     'airbnb',
+    'plugin:jsx-a11y/recommended',
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -17,8 +18,10 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['react'],
+  plugins: ['react', 'jsx-a11y'],
   rules: {
+    // 'jsx-a11y/rule-name': 2,
+    'react/jsx-filename-extension': [1, { extensions: ['.jsx', '.js'] }],
     indent: ['error', 2],
     semi: ['warn', 'always'],
     quotes: ['warn', 'single'],
@@ -37,7 +40,8 @@ module.exports = {
         allowCustomElements: false,
       },
     ],
-    'jsx-a11y/click-events-have-key-events': 'off',
+    'jsx-a11y/click-events-have-key-events': ['warn'],
     'react/jsx-no-comment-textnodes': 'off',
+    'jsx-a11y/no-static-element-interactions': ['error', {handlers: ['onClick'] }],
   },
 };

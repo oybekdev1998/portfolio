@@ -1,9 +1,8 @@
-/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
-import React, { useState } from 'react';
-import home from '../../assets/home.svg';
-import skills from '../../assets/skills.svg';
-import portfolio from '../../assets/portfolio.svg';
-import send from '../../assets/send.svg';
+import React from 'react';
+import home from '../../assets/home.png';
+import skills from '../../assets/books.png';
+import portfolio from '../../assets/cup.png';
+import send from '../../assets/letter.png';
 
 import styles from './Navbar.module.css';
 
@@ -27,7 +26,7 @@ function Navbar({ navbarProps }) {
           </span>
           <span className={styles.item}>
             <img className={styles.img} src={send} alt="home" />
-            Send me
+            Contact me
           </span>
         </div>
       </div>

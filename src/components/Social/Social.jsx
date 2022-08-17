@@ -1,5 +1,3 @@
-/* eslint-disable prettier/prettier */
-/* eslint-disable jsx-a11y/control-has-associated-label */
 import React from 'react';
 import telegram from '../../assets/telegram-app.svg';
 import github from '../../assets/github.svg';
