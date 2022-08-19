@@ -4,7 +4,7 @@ import Typical from 'react-typical';
 function Example() {
   return (
     <Typical
-      steps={['React', 1500, 'Redux', 1500, 'JavaScript', 1500, 'HTML', 1500, 'CSS', 1500, 'Tailwind', 1500]}
+      steps={['React', 1500, 'Redux', 1000, 'JavaScript', 1000, 'HTML', 1000, 'CSS', 1000, 'Tailwind', 1000]}
       loop={Infinity}
       wrapper="p"
     />

@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import photo from '../../assets/wolf.svg';
 import Navbar from '../Navbar/Navbar';
 import NavbarMenu from '../NavbarMenu/NavbarMenu';
 import Social from '../Social/Social';
 import Example from '../Typical/Typical';
+import photo from '../../assets/wolf.svg';
 
 import styles from './Home.module.css';
+import MainLayout from '../../layouts/MainLayout';
 
 function Home() {
   const [navbar, setNavbar] = useState(false);
