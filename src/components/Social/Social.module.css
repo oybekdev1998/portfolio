@@ -1,6 +1,5 @@
 .socials {
-  margin-top: 100px;
-  width: 300px;
+  width: 200px;
   display: flex;
   justify-content: space-between;
 }
@@ -14,4 +13,12 @@
 .telegram:hover { 
   transform: scale(1.2);
   filter: invert(43%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+}
+
+@media screen and (max-width:420px){
+  .socials {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+  }
 }

@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import MainLayout from '../../layouts/MainLayout';
 import { portfolioData } from '../../helpers/portfolio';
 import styles from './Portfolio.module.css'
-const Portfolio = () => {
-  
+const Portfolio = ({clickHandler, navbar}) => {
+  console.log(navbar)
   return (
     <>
       <MainLayout />

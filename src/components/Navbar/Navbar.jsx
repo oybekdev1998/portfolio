@@ -1,44 +1,37 @@
 import React from 'react';
-import Home from '../Home/Home';
-import home from '../../assets/home.png';
-import skills from '../../assets/books.png';
-import portfolio from '../../assets/cup.png';
-import send from '../../assets/letter.png';
+import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import { Link} from 'react-router-dom';
 import styles from './Navbar.module.css';
+import Social from '../Social/Social';
 
-// eslint-disable-next-line react/prop-types
-function Navbar({ navbarProps }) {
-
+function Navbar() {
   return (
       <div className={styles.navBlock}>
-        <div className={navbarProps ? styles.navbarDisplay : styles.navbar}>
+        <div className={styles.navbar}>
           <div className={styles.items}>
-            <Link to="/" onClick={() => setInProp(!inProp)}>
+            <Link to="/" >
               <span className={styles.item}>
-                <img className={styles.img} src={home} alt="home" />
-                Home
+                <BusinessCenterIcon className={styles.portfolioIcon}/>
+                Portfolio
               </span>
             </Link>
-            <Link to="/portfolio" >
-            <span className={styles.item}>
-              <img className={styles.img} src={portfolio} alt="home" />
-              Portfolio
+            <Link to="/portfolio" onClick={() => clickHandler()} >
+            <span className={styles.item}>    
+              Projects
             </span>
             </Link>
             <Link to='/skills'>
-            <span className={styles.item}>
-              <img className={styles.img} src={skills} alt="home" />
+            <span className={styles.item}>             
               Skills
             </span>
             </Link>
             <Link to='/contact'>
-            <span className={styles.item}>
-              <img className={styles.img} src={send} alt="home" />
-              Contact me
+            <span className={styles.item}>            
+              Contacts
             </span>
             </Link>
           </div>
+          <Social />
         </div>
       </div>
   );
