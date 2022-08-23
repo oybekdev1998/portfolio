@@ -3,7 +3,7 @@ import Navbar from '../Navbar/Navbar';
 import NavbarMenu from '../NavbarMenu/NavbarMenu';
 import Social from '../Social/Social';
 import Example from '../Typical/Typical';
-import photo from '../../assets/wolf.svg';
+import photo from '../../assets/myphoto.jpg';
 
 import styles from './Home.module.css';
 import MainLayout from '../../layouts/MainLayout';
