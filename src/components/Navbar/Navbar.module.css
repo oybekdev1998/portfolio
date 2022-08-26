@@ -1,6 +1,6 @@
 .navBlock {
   width: 100%;
-  position: fixed;  
+  position: absolute;  
 }
 
 .navbar {
@@ -19,17 +19,15 @@
   justify-content: flex-start;  
 }
 
+
 .item {
   display: flex;
   align-items: flex-start;
   margin-right: 40px;
   font-size: 24px;
-  color: #ffffbf;
   font-weight: 600;
+  color: #ffffbf;
   transition: all 400ms ease-in-out;
-}
-.item:first-child {
-  margin-right: 60px;
 }
 
 .portfolioIcon {
@@ -42,4 +40,84 @@
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
   filter: invert(43%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
   cursor: pointer;
+}
+
+@media screen and (max-width:1300px) {
+  .navbar {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 10px;
+    
+  }
+}
+
+@media screen and (max-width:1100px) {
+  .navbar {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 10px;
+    
+  }
+}
+
+@media screen and (max-width:970px) {
+  .navbar {
+    max-width: 750px;
+    margin: 0 auto;
+    padding-top: 10px;
+    
+  }
+
+  .item {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width:786px) {
+  .navbar {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 10px;
+    justify-content: center;
+    
+  }
+
+  .items {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+  }
+  
+  .item {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 20px;
+  }
+  
+  
+}
+
+@media (max-width:560px) {
+  .navbar {
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 10px; 
+  }
+  
+  .item {
+    margin-right: 15px;
+  }
+  
+}
+
+@media screen and (max-width:360px) {
+  .navbar {
+    max-width: 200px;
+    margin: 0 auto;
+    padding-top: 10px;
+    justify-content: center;  
+  }
+  .item {
+    margin-right: 10px;
+  }
 }

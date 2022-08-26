@@ -54,11 +54,10 @@
   justify-content: center;
   flex-direction: column;
   width: 80px;
-  height: 30px;
+  
   color: #fff;
   padding: 3px 10px;
   position: relative;
-  overflow: hidden;
 }
 
 @media screen and (max-width:420px) {

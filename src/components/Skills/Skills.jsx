@@ -1,13 +1,13 @@
 import React from 'react';
 import { skills } from '../../helpers/skills';
-import MainLayout from '../../layouts/MainLayout';
+import Navbar from '../Navbar/Navbar';
 
 import styles from './Skills.module.css'
 
 const Skills = () => {
   return (
     <div className={styles.skills}>
-      <MainLayout />
+      <Navbar />
       <div className={styles.container}>
         {
           skills.map((skill) => {

@@ -3,6 +3,13 @@
   height: 100vh;
   background: rgb(8,2,38);
   background: radial-gradient(circle, rgba(8,2,38,1) 0%, rgba(184,65,29,1) 0%, rgba(143,149,161,1) 100%, rgba(0,5,6,1) 100%, rgba(60,64,73,1) 100%, rgba(138,144,156,1) 100%, rgba(119,123,139,1) 100%, rgba(132,137,151,1) 100%, rgba(135,140,153,1) 100%);
+  
+}
+
+.container {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,6 +27,7 @@
   list-style-type: none;
   display: flex;
   align-items: center;
+  margin: 0 auto;
   margin-top: 10px;
   color: #fff;
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
@@ -34,4 +42,16 @@
   color: #fff;
   font-size: 28px;
   margin-left: 10px;
+}
+
+@media screen and (max-width:378px) {
+  .items {
+    margin: 0 auto;
+    width: 90%;
+    padding-left: 5px;
+  }
+  .item > a {
+    font-size: 22px;
+    margin-left: 10px;
+  }
 }
