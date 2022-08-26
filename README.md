@@ -1,6 +1,5 @@
 
-## 🧑🏼‍💻 Portfolio
-***
+## 🧑🏼‍💻 Portfolio App
 ### 🐬 Links
 ***
 * `Repository` [https://github.com/oybekdev1998/portfolio/](https://github.com/oybekdev1998/portfolio/)
