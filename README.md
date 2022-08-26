@@ -3,7 +3,7 @@
 ### 🐬 Links
 ***
 * `Repository` [https://github.com/oybekdev1998/portfolio/](https://github.com/oybekdev1998/portfolio/)
-* `Project`[]()
+* `Project`[https://personal-site-bice-phi.vercel.app/](https://personal-site-bice-phi.vercel.app/)
 * `oybekdev1998`[https://github.com/oybekdev1998](https://github.com/oybekdev1998)
 
 ***
