@@ -86,13 +86,19 @@
   
   .card {
     width: 70%;
-    height: 300px; 
+    height: 400px; 
     transition: all 600ms ease-in-out;
   }
 
   .items {
     width: 90%;
-    margin: 10px;
+    margin-top: -20px;
+  }
+
+  .item {
+    margin-left: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
   }
 }
 
@@ -110,13 +116,15 @@
   
   .card {
     width: 60%;
-    height: 300px; 
+    height: 400px; 
     transition: all 600ms ease-in-out;
   }
 
   .items {
-    margin-top: 20px;
     width: 90%;
+  }
+  .item {
+    font-size: 22px;
   }
 }
 
