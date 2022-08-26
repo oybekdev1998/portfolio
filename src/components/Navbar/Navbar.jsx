@@ -1,8 +1,10 @@
 import React from 'react';
-import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
-import { Link} from 'react-router-dom';
-import styles from './Navbar.module.css';
+import {Link} from 'react-router-dom';
 import Social from '../Social/Social';
+
+import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
+
+import styles from './Navbar.module.css';
 
 function Navbar() {
   return (

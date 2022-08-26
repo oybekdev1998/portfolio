@@ -1,6 +1,6 @@
 import React from 'react';
-import { skills } from '../../helpers/skills';
 import Navbar from '../Navbar/Navbar';
+import { skills } from '../../helpers/skills';
 
 import styles from './Skills.module.css'
 
@@ -16,14 +16,8 @@ const Skills = () => {
                 <h1 className={styles.title}>{skill.skillName}</h1>
                 <ul className={styles.items}>
                   {
-                    skill.skillInfo.map((item) => {
-                      return (
-                        <li key={item} className={styles.item}>{item}</li>
-
-                      )
-                    })
-                  }
-                  
+                    skill.skillInfo.map((item) => <li key={item} className={styles.item}>{item}</li>)
+                  }       
                 </ul>
               </div>
             )

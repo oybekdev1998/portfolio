@@ -53,8 +53,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 80px;
-  
+  width: 80px; 
   color: #fff;
   padding: 3px 10px;
   position: relative;
@@ -74,7 +73,6 @@
     font-size: 26px;
     line-height: 30px;
     letter-spacing: 3px;
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
   }
 
   .subTitle {
@@ -101,7 +99,6 @@
     font-size: 24px;
     line-height: 25px;
     letter-spacing: 3px;
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
   }
 
   .subTitle {
@@ -109,7 +106,5 @@
     align-items: center;
     color: #fff;
     font-size: 14px;
-    font-weight: 800;
-    line-height: 10px;
   }
 }

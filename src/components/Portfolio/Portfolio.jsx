@@ -1,11 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Navbar from '../Navbar/Navbar';
 import { portfolioData } from '../../helpers/portfolio';
 
 import styles from './Portfolio.module.css'
 
 const Portfolio = () => {
-  
   return (
     <>
       <Navbar />

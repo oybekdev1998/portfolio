@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import Example from '../Typical/Typical';
 import photo from '../../assets/wolf.svg';
@@ -10,7 +10,7 @@ function Home() {
   return (
     <div className={styles.home}>
       <Navbar />
-      <img className={styles.img} src={photo} alt="my" />
+      <img className={styles.img} src={photo} alt="wolf" />
       <h1 className={styles.title}>Oybek Shamuratov</h1>
       <h2 className={styles.job}>React Developer</h2>
       <h3 className={styles.subTitle}>

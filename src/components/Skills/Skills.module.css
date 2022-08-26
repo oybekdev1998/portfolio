@@ -39,8 +39,7 @@
 .title {
   text-transform: uppercase;
   color: #FEBE10;
-  text-shadow: 27px 5px 31px rgba(80,16,16,0.6);
-  
+  text-shadow: 27px 5px 31px rgba(80,16,16,0.6); 
 }
 
 .items {
@@ -53,7 +52,6 @@
   font-size: 24px;
   text-transform: uppercase;
 }
-
 
 
 @media screen and (max-width:1200px) {
@@ -84,16 +82,11 @@
     margin: 0 auto;
     padding-top: 120px;
     padding-bottom: 40px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
   }
   
   .card {
     width: 70%;
     height: 300px; 
-    display: flex;
-    flex-direction: column;  
     transition: all 600ms ease-in-out;
   }
 
@@ -118,8 +111,6 @@
   .card {
     width: 60%;
     height: 300px; 
-    display: flex;
-    flex-direction: column;  
     transition: all 600ms ease-in-out;
   }
 
@@ -136,16 +127,11 @@
     margin: 0 auto;
     padding-top: 100px;
     padding-bottom: 40px;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    justify-items: center;
   }
   
   .card {
     width: 80%;
-    height: 400px; 
-    display: flex;
-    flex-direction: column;  
+    height: 400px;   
     transition: all 600ms ease-in-out;
   }
 
